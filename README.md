@@ -2,6 +2,7 @@
 
 Binary builds of elasticsearch-plugin-readonlyrest for the FreeBSD ports
 
+The source code is available in https://github.com/sscarduzio/elasticsearch-readonlyrest-plugin
 
 Build requeriments:
 
