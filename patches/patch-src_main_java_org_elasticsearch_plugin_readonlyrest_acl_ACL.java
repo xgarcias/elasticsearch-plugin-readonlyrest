@@ -1,5 +1,5 @@
---- src/main/java/org/elasticsearch/plugin/readonlyrest/acl/ACL.java.orig       2017-04-18 11:30:52.011996221 +0000
-+++ src/main/java/org/elasticsearch/plugin/readonlyrest/acl/ACL.java    2017-04-18 11:31:55.295622221 +0000
+--- src/main/java/org/elasticsearch/plugin/readonlyrest/acl/ACL.java.orig	2017-04-21 11:12:37.809161000 +0000
++++ src/main/java/org/elasticsearch/plugin/readonlyrest/acl/ACL.java	2017-04-21 11:13:07.113227000 +0000
 @@ -79,14 +79,14 @@
                  block -> block.check(rc),
                  checkResult -> {
@@ -17,4 +17,3 @@
                      return BlockExitResult.noMatch();
                  });
      }
-
