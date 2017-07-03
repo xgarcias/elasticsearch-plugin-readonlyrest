@@ -1,7 +1,7 @@
 BUILD_DIR=	work
 CLONE_DIR=	work/elasticsearch-readonlyrest-plugin
 TMP_DIR=	${CLONE_DIR}/tmp
-VERSION=	1.14.0_es5.0.2
+VERSION=	1.14.1_es5.3.0
 TAG_NAME=	v${VERSION}
 GH_REPO=	https://github.com/sscarduzio/elasticsearch-readonlyrest-plugin
 
